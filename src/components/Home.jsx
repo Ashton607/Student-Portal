@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.CSS'
 import logo from '../assets/logo.jpg'
 import { UserRoundPlus,GraduationCap,UserCog,Users } from 'lucide-react' 
-import welcome from '../assets/graduate-certificate-svgrepo-com (1).svg'
+import welcome from '../assets/graduatelogo.svg'
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
        <div className="content">
         <div className="left">
             <span>Please select one of the options below to continue</span>
-            <button><UserRoundPlus />Register</button>
+            <button><UserRoundPlus />Enrollment</button>
             <button><GraduationCap />Student</button>
             <button><UserCog />Faculty</button>
             <button><Users />Staff</button>
