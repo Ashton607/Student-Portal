@@ -3,6 +3,7 @@ import './Home.CSS'
 import logo from '../assets/logo.jpg'
 import { UserRoundPlus,GraduationCap,UserCog,Users } from 'lucide-react' 
 import welcome from '../assets/graduatelogo.svg'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -17,8 +18,8 @@ const Home = () => {
        <div className="content">
         <div className="left">
             <span>Please select one of the options below to continue</span>
-            <button><UserRoundPlus />Enrollment</button>
-            <button><GraduationCap />Student</button>
+            <Link to="/register"><button><UserRoundPlus />Enrollment</button></Link>
+            <Link to="/student"><button><GraduationCap />Student</button></Link>
             <button><UserCog />Faculty</button>
             <button><Users />Staff</button>
         </div>

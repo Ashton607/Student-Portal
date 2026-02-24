@@ -89,6 +89,7 @@
 }
 
 
+
 .Reg-right{
     display: flex;
     flex-direction: column;
@@ -201,7 +202,7 @@
     border: none;
     width: 93%;
     height: 8px;
-    background: linear-gradient(to right, #c9920a 11%, #33394e 10%);
+    background: linear-gradient(to right, #c9920a 13%, #33394e 10%);
     margin: 10px 0;
 }
 
@@ -243,7 +244,7 @@
     border: none;
     width: 93%;
     height: 8px;
-    background: linear-gradient(to right, #c9920a 11%, #33394e 10%);
+    background: linear-gradient(to right, #c9920a 10%, #33394e 10%);
     margin: 10px 0;
 }
 
@@ -300,7 +301,7 @@
     margin-top: 50px;
     margin-left: 20px;
     cursor: pointer;
-    width: 29%;
+    width: 15%;
     height: 35px;
     box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.8);
    
@@ -315,6 +316,6 @@
 .submit img {
     width: 25px;
     height: 25px;
-    margin-left: 50%;
+    margin-left: 10%;
     vertical-align: middle;
 }
