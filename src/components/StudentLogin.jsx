@@ -30,11 +30,6 @@ const StudentLogin = () => {
 
 
 
-
-
-
-
-
     </div>
   )
 }

@@ -20,7 +20,7 @@ const Home = () => {
             <span>Please select one of the options below to continue</span>
             <Link to="/register"><button><UserRoundPlus />Enrollment</button></Link>
             <Link to="/student"><button><GraduationCap />Student</button></Link>
-            <button><UserCog />Faculty</button>
+            <Link to="/admin"><button><UserCog />Faculty</button></Link>
             <button><Users />Staff</button>
         </div>
 
