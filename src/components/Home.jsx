@@ -21,7 +21,7 @@ const Home = () => {
             <Link to="/register"><button><UserRoundPlus />Enrollment</button></Link>
             <Link to="/student"><button><GraduationCap />Student</button></Link>
             <Link to="/admin"><button><UserCog />Faculty</button></Link>
-            <button><Users />Staff</button>
+            <Link to="/staff"><button><Users />Staff</button></Link>
         </div>
 
         <div className="right">
