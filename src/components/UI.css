@@ -236,7 +236,6 @@ nav ul button:hover {
     width: 69%;
     margin-left: 15.5%;
     height: 83vh;
-    box-shadow: 0 8px 15px 2px rgba(160, 160, 160, 0.8);
 }
 
 .semester-1{
@@ -337,4 +336,55 @@ nav ul button:hover {
 
 .semester-2 tbody tr:last-child td{
     border-bottom: none;
+}
+
+
+
+
+
+/*Transcript*/
+
+.transcript{
+    margin-top: 8%;
+    width: 69%;
+    margin-left: 15.5%;
+    height: 83vh;
+    box-shadow: 0 8px 15px 2px rgba(160, 160, 160, 0.8);
+    
+}
+.transcript img{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.transcript h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.transcript hr{
+    border: none;
+    width: 97%;
+    height: 8px;
+    background: linear-gradient(to right, #c9920a 28%, #33394e 10%);
+    margin: 10px 0;
+}
+.transcript ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.transcript .leftID{
+    width: 50%;
+    line-height: 1.8;
+    
+}
+
+.transcript .rightID{
+    width: 50%;
+    line-height: 1.8;
+    
 }

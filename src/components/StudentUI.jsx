@@ -123,7 +123,7 @@ const StudentUI = () => {
                 <td>HCI634</td>
                 <td>Human Computer Interaction</td>
                 <td>20</td>
-                <td>1</td>
+                <td>100</td>
                 <td>50</td>
                 <td>23</td>
                 <td>50</td>
@@ -154,7 +154,7 @@ const StudentUI = () => {
                 <td>HCI634</td>
                 <td>Human Computer Interaction</td>
                 <td>20</td>
-                <td>1</td>
+                <td>100</td>
                 <td>50</td>
                 <td>23</td>
                 <td>50</td>
@@ -163,6 +163,33 @@ const StudentUI = () => {
             </tbody>
           </table>
           </div>
+        </div>
+      )}
+
+
+
+      {/*Transcript*/}
+
+      {activeTab ==='Transcript'&&(
+        <div className="transcript">
+          <h3>Academic Transcript<img src={logo} alt="Student Portal Logo" /></h3>
+          <hr />
+          <ul>
+            <div className="leftID">
+            <li>Name & Surname:</li>
+            <li>Province:</li>
+            <li>City:</li>
+            <li>Postal Code:</li>
+            </div>
+            <div className="rightID">
+            <li>Student Number: </li>
+            <li>ID Number:</li>
+            <li>Birth:</li>
+            <li>Gender:</li>
+            </div>
+          </ul>
+
+
         </div>
       )}
 
