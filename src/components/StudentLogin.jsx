@@ -1,6 +1,7 @@
 import React from 'react'
 import './Login.css'
 import castle from '../assets/castle.jpg'
+import { Link } from 'react-router-dom'
 
 const StudentLogin = () => {
   return (
@@ -19,7 +20,7 @@ const StudentLogin = () => {
             <h2><span>Student</span> Login</h2>
           <input type="number" placeholder="Student ID..." />
           <input type="password" placeholder="Password..." />
-          <button>Login</button>
+          <Link to="/studentUI"><button>Login</button></Link>
           <p>forgot password?</p>
           </div>
         </div>

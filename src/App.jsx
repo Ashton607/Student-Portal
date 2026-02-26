@@ -7,6 +7,7 @@ import Register from './components/Register'
 import StudentLogin from './components/StudentLogin'
 import AdminLogin from './components/AdminLogin'
 import Staff from './components/Staff'
+import StudentUI from './components/StudentUI'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/student" element={<StudentLogin />} />
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/staff" element={<Staff />} />
+        <Route path="/studentUI" element={<StudentUI />} />
       </Routes>
     </BrowserRouter>
   )
