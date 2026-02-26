@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import './UI.css'
-import { ChartArea,GraduationCap,ClipboardCheck,ClipboardList,BookOpenText,Clock } from 'lucide-react'
+import { ChartArea,GraduationCap,ClipboardCheck,ClipboardList,BookOpenText,Clock,Save } from 'lucide-react'
 import logo from '../assets/logo.jpg' 
 
 const StudentUI = () => {
@@ -83,16 +83,16 @@ const StudentUI = () => {
             </thead>
             <tbody>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>HCI634</td>
+                <td>Human Computer Interaction</td>
+                <td>20</td>
+                <td>1</td>
+                <td>R5000</td>
               </tr>
             </tbody>
           </table>
           </div>
-
+          <button>Save<Save size={18}/></button>
         </div>
       )}
 
