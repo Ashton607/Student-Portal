@@ -98,7 +98,7 @@ nav ul button:hover {
     width: 23%;
     border-radius: 5px;
     transition: ease-in-out 0.5s;
-    background: rgb(0, 167, 167);
+    background: rgb(135, 202, 202);
 }
 .card-3:hover{
     box-shadow: 0 4px 8px 0px rgb(129, 129, 129);
@@ -132,7 +132,7 @@ nav ul button:hover {
 
 /*Enrollment*/
 .enrollment{
-    margin-top: 10%;
+    margin-top: 8.4%;
     width: 69%;
     margin-left: 15.5%;
     height: 79vh;
@@ -191,7 +191,7 @@ nav ul button:hover {
 }
 
 .enrollment th{
-    padding: 15px;
+    padding: 8px 10px;
     text-align: left;
     font-weight: 600;
     font-size: 14px;
@@ -216,7 +216,7 @@ nav ul button:hover {
     width: 10%;
     border-radius: 5px;
     background: #ffffff;
-    color: #0d4405;
+    color: #007745;
     padding: 4px 10px;
     text-align: start;
     box-shadow: 0 4px 8px 0px rgb(134, 134, 134);
@@ -224,4 +224,117 @@ nav ul button:hover {
 .enrollment button svg{
     margin-top: -3px;
     margin-left: 8px;
+}
+
+
+
+
+/*Report*/
+
+.report{
+    margin-top: 8%;
+    width: 69%;
+    margin-left: 15.5%;
+    height: 83vh;
+    box-shadow: 0 8px 15px 2px rgba(160, 160, 160, 0.8);
+}
+
+.semester-1{
+    width: 100%;
+    height: 40vh;
+}
+
+.semester-1 hr{
+    border: none;
+    width: 97%;
+    height: 8px;
+    background: linear-gradient(to right, #c9920a 20%, #33394e 10%);
+    margin: 10px 0;
+}
+.semester-1 table{
+    width: 97.1%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 8px 15px 2px rgba(160, 160, 160, 0.8);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.semester-1 thead{
+    background: linear-gradient(135deg, #16213e 0%, #0f3460 60%, #896cb4 100%);
+    color: #f0d58a;
+}
+
+.semester-1 th{
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.semester-1 td{
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+
+.semester-1 tbody tr:last-child td{
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+.semester-2{
+    width: 100%;
+    margin-top: 20px;
+    height: 40vh;
+}
+.semester-2 hr{
+    border: none;
+    width: 97%;
+    height: 8px;
+    background: linear-gradient(to right, #c9920a 20%, #33394e 10%);
+    margin: 10px 0;
+}
+.semester-2 table{
+    width: 97.1%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 8px 15px 2px rgba(160, 160, 160, 0.8);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.semester-2 thead{
+    background: linear-gradient(135deg, #16213e 0%, #0f3460 60%, #896cb4 100%);
+    color: #f0d58a;
+}
+
+.semester-2 th{
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.semester-2 td{
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+
+.semester-2 tbody tr:last-child td{
+    border-bottom: none;
 }

@@ -13,7 +13,7 @@ const StudentUI = () => {
       <ul>
         <button onClick={() => setActiveTab('Overview')} className={activeTab === 'Overview' ? 'active' : ''}>Overview<ChartArea/></button>
         <button onClick={() => setActiveTab('Enrollment')} className={activeTab === 'Enrollment' ? 'active' : ''}>Enrollment<GraduationCap/></button>
-        <button onClick={() => setActiveTab('Report')} className={activeTab === 'Report' ? 'active' : ''}>Reports<ClipboardCheck/></button>
+        <button onClick={() => setActiveTab('Report')} className={activeTab === 'Report' ? 'active' : ''}>Report<ClipboardCheck/></button>
         <button onClick={() => setActiveTab('Transcript')} className={activeTab === 'Transcript' ? 'active' : ''}>Transcript<ClipboardList/></button>
         <button onClick={() => setActiveTab('Exam')} className={activeTab === 'Exam' ? 'active' : ''}>Exam<BookOpenText/></button>
       </ul>
@@ -75,7 +75,7 @@ const StudentUI = () => {
             <thead>
               <tr>
                 <th>Code</th>
-                <th>Name</th>
+                <th>Description</th>
                 <th>Credits</th>
                 <th>Semester</th>
                 <th>Amount</th>
@@ -96,12 +96,96 @@ const StudentUI = () => {
         </div>
       )}
 
+
+      {/*Reports*/}
+
+      {activeTab ==='Report'&&(
+        <div className="report">
+          
+          <div className="semester-1">
+            <h3>Semester 1</h3>
+            <hr />
+            <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Credits</th>
+                <th>Mark 1</th>
+                <th>Mark 2</th>
+                <th>Mark 3</th>
+                <th>Final Mark</th>
+                <th>Exam Admission</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HCI634</td>
+                <td>Human Computer Interaction</td>
+                <td>20</td>
+                <td>1</td>
+                <td>50</td>
+                <td>23</td>
+                <td>50</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+
+          <div className="semester-2">
+            <h3>Semester 2</h3>
+            <hr />
+            <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Credits</th>
+                <th>Mark 1</th>
+                <th>Mark 2</th>
+                <th>Mark 3</th>
+                <th>Final Mark</th>
+                <th>Exam Admission</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HCI634</td>
+                <td>Human Computer Interaction</td>
+                <td>20</td>
+                <td>1</td>
+                <td>50</td>
+                <td>23</td>
+                <td>50</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+      )}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-
-
-
-
-
 
     </div>
   )
