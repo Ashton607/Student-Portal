@@ -1,6 +1,6 @@
 import React from 'react'
-import './Login.css'
-import castle from '../assets/castle.jpg'
+import '../Login.css'
+import castle from '../../assets/castle.jpg'
 
 const AdminLogin = () => {
   return (

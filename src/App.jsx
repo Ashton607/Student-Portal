@@ -5,7 +5,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home'
 import Register from './components/Register'
 import StudentLogin from './components/StudentLogin'
-import AdminLogin from './components/AdminLogin'
+import AdminLogin from './components/admin/AdminLogin'
+import AdminUI from './components/admin/AdminUI'
 import Staff from './components/Staff'
 import StudentUI from './components/StudentUI'
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/staff" element={<Staff />} />
         <Route path="/studentUI" element={<StudentUI />} />
+        <Route path="/adminUI" element={<AdminUI />} />
       </Routes>
     </BrowserRouter>
   )
