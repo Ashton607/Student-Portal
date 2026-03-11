@@ -189,6 +189,37 @@ const StudentUI = () => {
             </div>
           </ul>
 
+          <div className="year-1">
+           <h3>Year 1</h3>
+            <hr />
+            <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Credits</th>
+                <th>Mark 1</th>
+                <th>Mark 2</th>
+                <th>Mark 3</th>
+                <th>Final Mark</th>
+                <th>Exam Admission</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HCI634</td>
+                <td>Human Computer Interaction</td>
+                <td>20</td>
+                <td>100</td>
+                <td>50</td>
+                <td>23</td>
+                <td>50</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+
 
         </div>
       )}
@@ -196,6 +227,67 @@ const StudentUI = () => {
 
 
 
+      {/*Exam*/}
+      {activeTab ==='Exam'&&(
+        <div className="exam">
+          <h3>Examinations<img src={logo} alt="Student Portal Logo" /></h3>
+          <hr />
+           <div className="semester-1">
+            <h3>Semester 1</h3>
+            <hr />
+              <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Programme</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HCI634</td>
+                <td>Human Computer Interaction</td>
+                <td>ICT601</td>
+                <td>02/05/26</td>
+                <td>14:00</td>
+                <td>Exam Hall</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+
+          <div className="semester-2">
+            <h3>Semester 2</h3>
+            <hr />
+            <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Programme</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HCI634</td>
+                <td>Human Computer Interaction</td>
+                <td>ICT601</td>
+                <td>02/05/26</td>
+                <td>14:00</td>
+                <td>Exam Hall</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <button>Save<Save size={18}/></button>
+        </div>
+      )}
 
 
 
